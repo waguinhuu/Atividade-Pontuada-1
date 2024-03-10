@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+    inteiro primeiroNumero, segundoNumero, terceiroNumero
+    inteiro  soma
+
+    escreva("Digite o valor A: ")
+    leia(primeiroNumero)
+
+    escreva("Digite o valor B: ")
+    leia(segundoNumero)
+
+    escreva("Digite o valor C: ")
+    leia(terceiroNumero)
+
+
+    se (primeiroNumero + segundoNumero > terceiroNumero){
+
+    escreva("A soma de A + B é maior que C")
+    }
+
+    senao {
+      se(primeiroNumero + segundoNumero < terceiroNumero)
+      escreva("A soma de A + B é menor que C")
+    }
+    
+
+
+
+
+
+
+  }
+}
