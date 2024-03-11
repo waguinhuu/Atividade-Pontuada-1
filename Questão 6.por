@@ -14,15 +14,15 @@ programa {
 
 
     se(media < 4){
-      escreva("A média do aluno foi ", media, ".\n Aluno reprovado. ")
+      escreva("A mÃ©dia do aluno foi ", media, ".\n Aluno reprovado. ")
   
     }senao
-      se(media >= 4)
-      escreva("A média do aluno foi ", media, ".\n Aluno em recuperação. ")
+      se(media <= 4)
+      escreva("A mÃ©dia do aluno foi ", media, ".\n Aluno em recuperaÃ§Ã£o. ")
 
     senao
       se(media >= 6)
-      escreva("A média do aluno foi ", media , ".\n Parabéns! Aluno aprovado.")
+      escreva("A mÃ©dia do aluno foi ", media , ".\n ParabÃ©ns! Aluno aprovado.")
     
   }
 }
