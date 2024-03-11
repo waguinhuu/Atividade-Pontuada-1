@@ -17,7 +17,7 @@ programa {
       escreva("A média do aluno foi ", media, ".\n Aluno reprovado. ")
   
     }senao
-      se(media <= 4)
+      se(media <= 5.9)
       escreva("A média do aluno foi ", media, ".\n Aluno em recuperação. ")
 
     senao
