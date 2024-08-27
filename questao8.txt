@@ -1,0 +1,31 @@
+programa {
+  funcao inicio() {
+    cadeia verde, azul, amarelo, vermelho
+    cadeia cor
+
+    escreva("Digite a cor: ")
+    leia(cor)
+
+
+    escolha(cor){
+
+      caso "verde" :
+      escreva("O preço dessa cor é de R$10,00")
+      pare
+      caso "azul" :
+      escreva("O preço dessa cor é de R$20,00")
+      pare
+      caso "amarelo":
+      escreva("O preço dessa cor é de R$30,00")
+      pare
+      caso "vermelho" :
+      escreva("O preço dessa cor é de R$40,00")
+      pare
+      caso contrario :
+      escreva("Cor inválida.")
+    }
+
+
+    
+  }
+}
